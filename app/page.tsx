@@ -8,10 +8,12 @@ export default function Home() {
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
             I help founders turn ideas into seamless{" "}
-            <span className="italic text-gray-300">digital experiences</span>
+            <span className="font-playfair italic font-medium tracking-wide bg-gradient-to-b from-zinc-700 via-zinc-200 to-zinc-50 bg-clip-text text-transparent">
+              digital experiences
+            </span>
           </h1>
           
-          <div className="flex items-center justify-center gap-4 mb-8">
+          <div className="flex items-center justify-center gap-4 mt-50 mb-8">
             <p className="text-xl text-gray-200">
               Hello, I'm Austin Pugliese
             </p>
